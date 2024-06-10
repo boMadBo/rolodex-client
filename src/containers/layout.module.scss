@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  min-height: 100vh;
+  overflow-y: auto;
+  width: 100vw;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 800px;
+  background: var(--main-color);
+  min-height: 100vh;
+  position: relative;
+}
+
+.signout_wrap {
+  position: absolute;
+  right: 60px;
+  top: 50px;
+  width: 120px;
+}
+
+.link_wrap {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 60px;
+  top: 50px;
+  height: 36px;
+}

@@ -1,0 +1,11 @@
+.people {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 120px 0 80px;
+  height: min-content;
+  min-height: calc(100vh - 200px);
+  width: 100%;
+  gap: 40px;
+}

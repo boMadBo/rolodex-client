@@ -1,0 +1,22 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+html {
+  --background-color: #e1e3e3;
+  --text-color: #464646;
+  --main-color: linear-gradient(to right, #DB7093, #FFB6C1);
+  --buttons: linear-gradient(to right, #7093db, #bdcfdb);
+  --link-color: rgb(34, 38, 38);
+  --active-color: rgb(67, 141, 158);
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

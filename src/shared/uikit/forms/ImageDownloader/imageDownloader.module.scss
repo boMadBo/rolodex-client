@@ -1,0 +1,62 @@
+.downloader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.input_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.label_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid var(--text-color);
+  border-radius: 4px;
+  color: #000;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 36px;
+  background: var(--buttons);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.image_wrap {
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border: 1px solid var(--buttons);
+  border-radius: 8px;
+}
+
+.image_wrap_hidden {
+  border: 1px solid transparent;
+}
+
+.img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 3px;
+}

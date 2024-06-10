@@ -1,0 +1,16 @@
+.radio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.radio_group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
